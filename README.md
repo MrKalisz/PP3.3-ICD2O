@@ -1,35 +1,72 @@
-# Instructions  
+# Practice Problem 3.3
 
-# Practice Problem 2.1
+1.
 
-1. The variable _num_ holds an integer from user input  Write a conditional statement that does the following:
+Ask to user for a positive integer (ensure that it is positive!).  If it is a negative number ask again.
 
-- If num is even (divisible by 2), print "__ is even"
-- If num is odd, print "__ is odd"
+Write a for loop that will output all even numbers between 0 and the given number on the same line, inclusive. (no spaces)
 
-Examples:
-
-```
-In: 23
-23 is odd
-```
-```
-In: 36
-36 is even
-```
-
-2. The variable _name_ holds a String from user input.  Write a conditional statement that does the following:
-
-- If name is equal to "Kalisz", print "teacher"
-- For any other input, print "student"
-
-Examples:
+Sample input/outputs:
 
 ```
-In: Kalisz
-teacher
+In: 5
 ```
+
 ```
-In: Faa
-student
+024
 ```
+
+```
+In: 10
+```
+
+```
+0246810
+```
+
+```
+In: -10
+```
+
+```
+In: -5
+```
+
+```
+In: 8
+```
+
+```
+02468
+```
+
+2.
+
+Ask to user for a positive integer (ensure that it is positive!).  If it is a negative number ask again.
+
+Write a for loop that will output a series of numbers starting at one less than the given number and ending at 0.
+
+
+Sample input/outputs:
+
+```
+In: 7
+6543210
+```
+
+```
+In: -2
+```
+
+```
+In: 12
+11109876543210
+```
+
+```
+In: 20
+191817161514131211109876543210
+```
+
+ 
+
